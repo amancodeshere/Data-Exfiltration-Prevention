@@ -1,49 +1,28 @@
 <!-- templates/index.html -->
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Network Monitor Dashboard</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
+    <title>Suspicious Packets</title>
 </head>
 <body>
-    <h1>Suspicious Network Activity</h1>
-    <table>
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>Source IP</th>
-                <th>Destination IP</th>
-                <th>Timestamp</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for packet in packets %}
-            <tr>
-                <td>{{ packet[0] }}</td>
-                <td>{{ packet[1] }}</td>
-                <td>{{ packet[2] }}</td>
-                <td>{{ packet[3] }}</td>
-            </tr>
-            {% endfor %}
-        </tbody>
+    <h1>Suspicious Packets</h1>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Source IP</th>
+            <th>Destination IP</th>
+            <th>Timestamp</th>
+            <th>Location</th>
+        </tr>
+        {% for packet in packets %}
+        <tr>
+            <td>{{ packet[0] }}</td>
+            <td>{{ packet[1] }}</td>
+            <td>{{ packet[2] }}</td>
+            <td>{{ packet[3] }}</td>
+            <td>{{ packet[4] }}</td> <!-- Add location here -->
+        </tr>
+        {% endfor %}
     </table>
 </body>
 </html>

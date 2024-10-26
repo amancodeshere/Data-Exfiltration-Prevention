@@ -1,0 +1,68 @@
+INFO:root:Analyzing packet from 127.0.0.1 to 8.8.8.8
+INFO:root:Suspicious packet detected: <MagicMock id='4390974240'>
+INFO:root:Analyzing packet from <MagicMock name='mock.ip.src' id='4391312640'> to <MagicMock name='mock.ip.dst' id='4391316432'>
+INFO:root:Analyzing packet from <MagicMock name='mock.ip.src' id='4391392448'> to <MagicMock name='mock.ip.dst' id='4391396192'>
+INFO:root:Analyzing packet from 192.168.1.10 to 8.8.8.8
+INFO:root:Suspicious packet detected: <MagicMock id='4389792672'>
+INFO:root:Analyzing packet from 127.0.0.1 to 8.8.8.8
+INFO:root:Suspicious packet detected: <MagicMock id='4384658336'>
+INFO:root:Analyzing packet from <MagicMock name='mock.ip.src' id='4384726224'> to <MagicMock name='mock.ip.dst' id='4384730016'>
+INFO:root:Analyzing packet from <MagicMock name='mock.ip.src' id='4384805792'> to <MagicMock name='mock.ip.dst' id='4384809536'>
+INFO:root:Analyzing packet from 192.168.1.10 to 8.8.8.8
+INFO:root:Suspicious packet detected: <MagicMock id='4379567376'>
+INFO:root:Analyzing packet from 127.0.0.1 to 8.8.8.8
+INFO:root:Suspicious packet detected (blacklisted IP): <MagicMock id='4346053792'>
+INFO:root:Analyzing packet from 192.168.1.10 to 8.8.8.8
+INFO:root:Suspicious packet detected (blacklisted IP): <MagicMock id='4341870240'>
+INFO:root:Analyzing packet from 192.168.1.10 to 8.8.8.8
+INFO:root:Suspicious packet detected (blacklisted IP): <MagicMock id='4341862464'>
+INFO:root:Analyzing packet from 192.168.1.10 to 8.8.8.8
+INFO:root:Suspicious packet detected (blacklisted IP): <MagicMock id='4339985312'>
+INFO:root:Analyzing packet from 127.0.0.1 to 8.8.8.8
+INFO:root:Suspicious packet detected (blacklisted IP): <MagicMock id='4346069792'>
+INFO:root:Analyzing packet from 192.168.1.10 to 8.8.8.8
+INFO:root:Suspicious packet detected (blacklisted IP): <MagicMock id='4346069648'>
+INFO:root:Analyzing packet from 192.168.1.10 to 8.8.8.8
+INFO:root:Suspicious packet detected (blacklisted IP): <MagicMock id='4340006064'>
+INFO:root:Analyzing packet from 192.168.1.10 to 8.8.8.8
+INFO:root:Suspicious packet detected (blacklisted IP): <MagicMock id='4337136992'>
+INFO:root:Analyzing packet from 127.0.0.1 to 8.8.8.8
+INFO:root:Suspicious packet detected (blacklisted IP): <MagicMock id='4344384688'>
+INFO:root:Analyzing packet from 192.168.1.10 to 8.8.8.8
+INFO:root:Suspicious packet detected (blacklisted IP): <MagicMock id='4349078288'>
+INFO:root:Analyzing packet from 192.168.1.10 to 8.8.8.8
+INFO:root:Suspicious packet detected (blacklisted IP): <MagicMock id='4344392608'>
+INFO:root:Analyzing packet from 192.168.1.10 to 8.8.8.8
+INFO:root:Suspicious packet detected (blacklisted IP): <MagicMock id='4344396976'>
+INFO:root:Analyzing packet from 127.0.0.1 to 8.8.8.8
+INFO:root:Suspicious packet detected (blacklisted IP): <MagicMock id='4320791728'>
+INFO:root:Analyzing packet from 192.168.1.10 to 8.8.8.8
+INFO:root:Suspicious packet detected (blacklisted IP): <MagicMock id='4311871136'>
+INFO:root:Analyzing packet from 192.168.1.10 to 8.8.8.8
+INFO:root:Suspicious packet detected (blacklisted IP): <MagicMock id='4314676400'>
+INFO:root:Analyzing packet from 192.168.1.10 to 8.8.8.8
+INFO:root:Suspicious packet detected (blacklisted IP): <MagicMock id='4311807328'>
+INFO:root:Analyzing packet from 127.0.0.1 to 8.8.8.8
+INFO:root:Suspicious packet detected (blacklisted IP): <MagicMock id='4322066800'>
+INFO:root:Analyzing packet from 192.168.1.10 to 8.8.8.8
+INFO:root:Suspicious packet detected (blacklisted IP): <MagicMock id='4313149088'>
+INFO:root:Analyzing packet from 192.168.1.10 to 8.8.8.8
+INFO:root:Suspicious packet detected (blacklisted IP): <MagicMock id='4315949984'>
+INFO:root:Analyzing packet from 192.168.1.10 to 8.8.8.8
+INFO:root:Suspicious packet detected (blacklisted IP): <MagicMock id='4315954352'>
+INFO:root:Analyzing packet from 127.0.0.1 to 8.8.8.8
+INFO:root:Suspicious packet detected (blacklisted IP): <MagicMock id='4386820832'>
+INFO:root:Analyzing packet from 192.168.1.10 to 8.8.8.8
+INFO:root:Suspicious packet detected (blacklisted IP): <MagicMock id='4384534176'>
+INFO:root:Analyzing packet from 192.168.1.10 to 8.8.8.8
+INFO:root:Suspicious packet detected (blacklisted IP): <MagicMock id='4386993744'>
+INFO:root:Analyzing packet from 192.168.1.10 to 8.8.8.8
+INFO:root:Suspicious packet detected (blacklisted IP): <MagicMock id='4387335072'>
+INFO:root:Analyzing packet from 127.0.0.1 to 8.8.8.8
+INFO:root:Suspicious packet detected (blacklisted IP): <MagicMock id='4353196304'>
+INFO:root:Analyzing packet from 192.168.1.10 to 8.8.8.8
+INFO:root:Suspicious packet detected (blacklisted IP): <MagicMock id='4344278688'>
+INFO:root:Analyzing packet from 192.168.1.10 to 8.8.8.8
+INFO:root:Suspicious packet detected (blacklisted IP): <MagicMock id='4343446944'>
+INFO:root:Analyzing packet from 192.168.1.10 to 8.8.8.8
+INFO:root:Suspicious packet detected (blacklisted IP): <MagicMock id='4347079584'>

@@ -1,0 +1,1500 @@
+INFO:root:Starting packet capture...
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.196
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.196 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.44.10.123
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.44.10.123 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.44.10.123
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.44.10.123
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.44.10.123 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.44.10.123 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.44.10.123
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.44.10.123
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.44.10.123 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.44.10.123 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.44.10.123 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.44.10.123 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.44.10.123
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.44.10.123
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.44.10.123
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.44.10.123
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.44.10.123 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.44.10.123 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.44.10.123
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.44.10.123 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.44.10.123
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.44.10.123
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.44.10.123
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.44.10.123 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.196
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.196 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.250.66.227
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.250.66.227
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.250.66.227
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.250.66.227
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.250.66.227 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.250.66.227 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.250.66.227
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.250.66.227 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.250.66.227
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.250.66.227 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.250.66.227
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.250.66.227 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.250.66.227
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.250.66.227 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.250.66.227
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.250.66.227 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.250.66.227
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.250.66.227 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.250.66.227
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.250.66.227 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.250.66.227
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.250.66.227 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.250.66.227 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.250.66.227 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.250.66.227 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.250.66.227 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.250.66.227 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.250.66.227 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.250.66.227
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.250.66.227
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.250.66.227
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.250.66.227 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.250.66.227
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.250.66.227 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.250.66.227
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.250.66.227 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.250.66.227
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.250.66.227 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.203
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.203 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 23.214.88.41
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 23.214.88.41
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 23.214.88.41 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 23.214.88.41 to 10.168.200.56
+INFO:root:Starting packet capture...
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.203
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.203 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.202
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.202
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.202 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.202 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.202 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.202 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.202
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 13.70.79.200
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 13.70.79.200 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 13.70.79.200
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 13.70.79.200
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 13.70.79.200 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 13.70.79.200
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 13.70.79.200
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 13.70.79.200 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 13.70.79.200 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 13.70.79.200 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 13.70.79.200 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 13.70.79.200
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 13.70.79.200
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 13.70.79.200
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 13.70.79.200
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 13.70.79.200 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 13.70.79.200 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 13.70.79.200 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 13.70.79.200
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 13.70.79.200
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 13.70.79.200
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 13.70.79.200
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 13.70.79.200 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 224.0.0.251
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.196
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 23.221.132.30
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 23.221.132.30 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 23.221.132.30
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 23.221.132.30
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 23.221.132.30 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 23.221.132.30 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 23.221.132.30 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 23.221.132.30
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 23.221.132.30
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 23.221.132.30 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 23.221.132.30
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 23.221.132.30 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 23.221.132.30
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 23.221.132.30
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 23.221.132.30
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 23.221.132.30 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 23.221.132.30 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 23.221.132.30
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 23.221.132.30
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 23.221.132.30 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 23.221.132.30
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.202
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.202
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.202
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.202
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.202
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.202
+INFO:root:Starting packet capture...
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.42.73.28
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.42.73.28
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.42.73.28
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.42.73.28 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.42.73.28 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.42.73.28 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.42.73.28
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.42.73.28
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.42.73.28
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.42.73.28 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.42.73.28
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.42.73.28 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.42.73.28 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.42.73.28
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.42.73.28
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 52.168.117.174
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.42.73.28 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 52.168.117.174 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 52.168.117.174
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 52.168.117.174
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 52.168.117.174 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 52.168.117.174
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 52.168.117.174
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 52.168.117.174 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 52.168.117.174 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 52.168.117.174 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 52.168.117.174 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 52.168.117.174
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 52.168.117.174
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 52.168.117.174
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 52.168.117.174
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 52.168.117.174 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 52.168.117.174 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 52.168.117.174 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 52.168.117.174
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 52.168.117.174
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 52.168.117.174
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 52.168.117.174
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 52.168.117.174 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.202
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.202 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 74.125.130.188
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 74.125.130.188 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.203
+INFO:root:Suspicious packet detected: Packet (Length: 83)
+[1m[33mLayer ETH
+:[0m[1m[32m	Destination:[0m[1m e0:23:ff:3a:15:00
+[0m[1m[32m	.... ..0. .... .... .... .... = LG bit:[0m[1m Globally unique address (factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Source:[0m[1m 02:d1:dd:bc:e3:55
+[0m[1m[32m	.... ..1. .... .... .... .... = LG bit:[0m[1m Locally administered address (this is NOT the factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Type:[0m[1m IPv4 (0x0800)
+[0m[1m[32m	Stream index:[0m[1m 1
+[0m[1m[33mLayer IP
+:[0m[1m[32m	0100 .... = Version:[0m[1m 4
+[0m[1m[32m	.... 0101 = Header Length:[0m[1m 20 bytes (5)
+[0m[1m[32m	Differentiated Services Field:[0m[1m 0x00 (DSCP: CS0, ECN: Not-ECT)
+[0m[1m[32m	0000 00.. = Differentiated Services Codepoint:[0m[1m Default (0)
+[0m[1m[32m	.... ..00 = Explicit Congestion Notification:[0m[1m Not ECN-Capable Transport (0)
+[0m[1m[32m	Total Length:[0m[1m 69
+[0m[1m[32m	Identification:[0m[1m 0x0000 (0)
+[0m[1m[32m	010. .... = Flags:[0m[1m 0x2, Don't fragment
+[0m[1m[32m	0... .... = Reserved bit:[0m[1m Not set
+[0m[1m[32m	.1.. .... = Don't fragment:[0m[1m Set
+[0m[1m[32m	..0. .... = More fragments:[0m[1m Not set
+[0m[1m[32m	...0 0000 0000 0000 = Fragment Offset:[0m[1m 0
+[0m[1m[32m	Time to Live:[0m[1m 64
+[0m[1m[32m	Protocol:[0m[1m UDP (17)
+[0m[1m[32m	Header Checksum:[0m[1m 0xba04 [validation disabled]
+[0m[1m[32m	Header checksum status:[0m[1m Unverified
+[0m[1m[32m	Source Address:[0m[1m 10.168.200.56
+[0m[1m[32m	Destination Address:[0m[1m 17.248.155.203
+[0m[1m[32m	Stream index:[0m[1m 5
+[0m[1m[33mLayer UDP
+:[0m[1m[32m	Source Port:[0m[1m 58707
+[0m[1m[32m	Destination Port:[0m[1m 443
+[0m[1m[32m	Length:[0m[1m 49
+[0m[1m[32m	Checksum:[0m[1m 0xeebe [unverified]
+[0m[1m[32m	Checksum Status:[0m[1m Unverified
+[0m[1m[32m	Stream index:[0m[1m 2
+[0m[1m[32m	Stream Packet Number:[0m[1m 1
+[0m[1m	Timestamps
+[0m[1m[32m	Time since first frame:[0m[1m 0.000000000 seconds
+[0m[1m[32m	Time since previous frame:[0m[1m 0.000000000 seconds
+[0m[1m	UDP payload (41 bytes)
+[0mDATA
+INFO:root:Suspicious count: 1
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.203 to 10.168.200.56
+INFO:root:Suspicious packet detected: Packet (Length: 73)
+[1m[33mLayer ETH
+:[0m[1m[32m	Destination:[0m[1m 02:d1:dd:bc:e3:55
+[0m[1m[32m	.... ..1. .... .... .... .... = LG bit:[0m[1m Locally administered address (this is NOT the factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Source:[0m[1m e0:23:ff:3a:15:00
+[0m[1m[32m	.... ..0. .... .... .... .... = LG bit:[0m[1m Globally unique address (factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Type:[0m[1m IPv4 (0x0800)
+[0m[1m[32m	Stream index:[0m[1m 1
+[0m[1m[33mLayer IP
+:[0m[1m[32m	0100 .... = Version:[0m[1m 4
+[0m[1m[32m	.... 0101 = Header Length:[0m[1m 20 bytes (5)
+[0m[1m[32m	Differentiated Services Field:[0m[1m 0x00 (DSCP: CS0, ECN: Not-ECT)
+[0m[1m[32m	0000 00.. = Differentiated Services Codepoint:[0m[1m Default (0)
+[0m[1m[32m	.... ..00 = Explicit Congestion Notification:[0m[1m Not ECN-Capable Transport (0)
+[0m[1m[32m	Total Length:[0m[1m 59
+[0m[1m[32m	Identification:[0m[1m 0x0000 (0)
+[0m[1m[32m	010. .... = Flags:[0m[1m 0x2, Don't fragment
+[0m[1m[32m	0... .... = Reserved bit:[0m[1m Not set
+[0m[1m[32m	.1.. .... = Don't fragment:[0m[1m Set
+[0m[1m[32m	..0. .... = More fragments:[0m[1m Not set
+[0m[1m[32m	...0 0000 0000 0000 = Fragment Offset:[0m[1m 0
+[0m[1m[32m	Time to Live:[0m[1m 57
+[0m[1m[32m	Protocol:[0m[1m UDP (17)
+[0m[1m[32m	Header Checksum:[0m[1m 0xc10e [validation disabled]
+[0m[1m[32m	Header checksum status:[0m[1m Unverified
+[0m[1m[32m	Source Address:[0m[1m 17.248.155.203
+[0m[1m[32m	Destination Address:[0m[1m 10.168.200.56
+[0m[1m[32m	Stream index:[0m[1m 5
+[0m[1m[33mLayer UDP
+:[0m[1m[32m	Source Port:[0m[1m 443
+[0m[1m[32m	Destination Port:[0m[1m 58707
+[0m[1m[32m	Length:[0m[1m 39
+[0m[1m[32m	Checksum:[0m[1m 0x03b0 [unverified]
+[0m[1m[32m	Checksum Status:[0m[1m Unverified
+[0m[1m[32m	Stream index:[0m[1m 2
+[0m[1m[32m	Stream Packet Number:[0m[1m 2
+[0m[1m	Timestamps
+[0m[1m[32m	Time since first frame:[0m[1m 0.003308000 seconds
+[0m[1m[32m	Time since previous frame:[0m[1m 0.003308000 seconds
+[0m[1m	UDP payload (31 bytes)
+[0mDATA
+INFO:root:Suspicious count: 2
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 18.67.93.71
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 18.67.93.71 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 52.98.141.66 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 52.98.141.66 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 52.98.141.66 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 52.98.141.66 to 10.168.200.56
+INFO:root:Starting packet capture...
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.42.65.88 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.42.65.88
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 23.221.132.30
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 23.221.132.30
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 23.221.132.30 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 23.221.132.30 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 23.221.132.30 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 23.221.132.30
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 23.221.132.30
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 23.221.132.30
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.42.65.88 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.42.65.88
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.42.65.88
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.42.65.88 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.44.10.123
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.44.10.123 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.44.10.123
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.44.10.123
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.44.10.123 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.44.10.123 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.44.10.123
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.44.10.123
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.44.10.123 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.44.10.123 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.44.10.123 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.44.10.123 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.44.10.123
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.44.10.123
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.44.10.123
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.44.10.123
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.44.10.123 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.44.10.123 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.44.10.123
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.44.10.123 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.44.10.123
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.44.10.123
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.44.10.123
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.44.10.123 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 52.98.142.2 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 52.98.142.2 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 52.98.142.2 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 52.98.142.2 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 52.98.142.2
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 52.98.142.2 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 52.98.142.2 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 52.98.142.2 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 52.98.142.2 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 52.98.142.2
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.198
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.198 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.202
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.202 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.202
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.202 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 52.98.141.66 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 52.98.141.66 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 52.98.141.66 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 52.98.141.66 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 52.98.141.66
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 52.98.141.66 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 52.98.141.66 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 52.98.141.66 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 52.98.141.66
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.198
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.198 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.251.221.78
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.250.66.202
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.251.221.78 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.250.66.202 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.202
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.202 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.202
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.202 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.202
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.202
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.8.8
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.202 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.202 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.8.8 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.8.8 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.8.8
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.8.8
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.202
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.202
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.202 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.202 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.202 to 10.168.200.56
+INFO:root:Starting packet capture...
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 18.67.93.71 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 18.67.93.71 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 18.67.93.71
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 18.67.93.71
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 18.67.93.71
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 18.67.93.71 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.42.65.88
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.42.65.88
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.42.65.88
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.42.65.88 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.42.65.88 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.42.65.88
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.202
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.202
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.202 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.202 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.202 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.202
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.202 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.189.173.14
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.202
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.198
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.198
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.198
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.198
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.198
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.198 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.198 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.198
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.189.173.14 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.189.173.14
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.189.173.14
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.189.173.14 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.189.173.14 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.189.173.14
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.189.173.14
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.189.173.14 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.189.173.14 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.189.173.14 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.189.173.14 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.189.173.14
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.189.173.14
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.189.173.14
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.189.173.14
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.189.173.14 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.189.173.14 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.189.173.14
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.189.173.14 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.189.173.14
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.189.173.14
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.189.173.14
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.250.67.10
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.250.67.10
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.250.67.10
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.250.67.10 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.250.67.10 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.250.67.10
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.250.67.10 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.250.67.10
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.250.67.10 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.198 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.198 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.198
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.250.67.10
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.250.67.10 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.250.67.10
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.250.67.10 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.250.67.10
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.250.67.10 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.250.67.10
+INFO:root:Analyzing packet from 127.0.0.1 to 8.8.8.8
+INFO:root:Suspicious packet detected: <MagicMock id='4326813104'>
+INFO:root:Analyzing packet from <MagicMock name='mock.ip.src' id='4328332448'> to <MagicMock name='mock.ip.dst' id='4328336288'>
+INFO:root:Analyzing packet from <MagicMock name='mock.ip.src' id='4328412256'> to <MagicMock name='mock.ip.dst' id='4328416000'>
+INFO:root:Analyzing packet from 192.168.1.10 to 8.8.8.8
+INFO:root:Starting packet capture...
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.42.65.88
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.42.65.88
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.42.65.88
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.202 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.202 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.202
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.202
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.202
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.202
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.202 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.202 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.42.65.88 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.42.65.88 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.42.65.88
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.42.73.25
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.42.73.25 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.42.73.25
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.42.73.25
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.42.73.25 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.42.73.25 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.42.73.25
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.42.73.25
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.42.73.25 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.42.73.25
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.42.73.25 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.42.73.25 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.42.73.25 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.42.73.25
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.42.73.25
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.42.73.25
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.42.73.25
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.42.73.25 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.42.73.25 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.42.73.25 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.42.73.25
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.42.73.25
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.42.73.25
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 20.42.73.25
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 20.42.73.25 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.198
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.198
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.198
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.198
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.198
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.198 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.198 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.198 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.198
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.198 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.250.204.14
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.250.204.14 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.198 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.198
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 8.8.4.4 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.251.221.78
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.251.221.78
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.251.221.78
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.251.221.78 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.251.221.78 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.251.221.78
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 8.8.4.4
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.251.221.78 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.251.221.78
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.251.221.78 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.251.221.78
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.251.221.78 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.251.221.78
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.251.221.78 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.251.221.78
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.251.221.78 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.251.221.78 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.251.221.78 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.251.221.78 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.251.221.78 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.251.221.78
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.251.221.78 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.251.221.78
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.251.221.78
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.251.221.78
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.251.221.78
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.251.221.78 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.251.221.78 to 10.168.200.56
+INFO:root:Starting packet capture...
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 52.98.141.66 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 52.98.141.66 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 52.98.141.66 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 52.98.141.66 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 52.98.141.66
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 52.98.141.66 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 52.98.141.66 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 52.98.141.66 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 52.98.141.66 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 52.98.141.66 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 52.98.141.66
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.202
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.202 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 13.89.179.14
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.202
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.202 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 13.89.179.14 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 13.89.179.14
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 13.89.179.14
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 13.89.179.14 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 13.89.179.14 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 13.89.179.14
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 13.89.179.14
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 13.89.179.14 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 13.89.179.14 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 13.89.179.14 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 13.89.179.14 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 13.89.179.14
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 13.89.179.14
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 13.89.179.14
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 13.89.179.14
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 13.89.179.14 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 13.89.179.14 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 13.89.179.14
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 13.89.179.14 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 13.89.179.14
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 13.89.179.14
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 13.89.179.14
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.202
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.202 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 13.89.179.14 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 142.250.71.74
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 142.250.71.74 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.202
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.202 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.202
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.202 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.202
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.202 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.198
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.198 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.202
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.202 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Packet does not have IP layer.
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.202
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.202
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.202 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.202 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.202 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.202 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.202
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.202
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.202 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 17.248.155.202 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 13.107.5.93
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 13.107.5.93 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 13.107.5.93
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 13.107.5.93
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 13.107.5.93 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 13.107.5.93
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 13.107.5.93
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 13.107.5.93 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 13.107.5.93 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 13.107.5.93 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 13.107.5.93 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 13.107.5.93
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 13.107.5.93
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 17.248.155.202
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 13.107.5.93
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 13.107.5.93 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 13.107.5.93 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 13.107.5.93
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 13.107.5.93
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 13.107.5.93 to 10.168.200.56
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 13.107.5.93
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 10.168.200.56 to 13.107.5.93
+INFO:root:Packet captured.
+INFO:root:Analyzing packet from 13.107.5.93 to 10.168.200.56

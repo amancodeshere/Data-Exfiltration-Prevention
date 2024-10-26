@@ -1,0 +1,6 @@
+scapy
+Flask
+Flask-SocketIO
+requests
+scikit-learn
+win10toast

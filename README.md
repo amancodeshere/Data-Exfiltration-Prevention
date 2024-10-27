@@ -30,7 +30,7 @@ Data exfiltration prevention is critical in protecting sensitive information fro
     - Health Information: Medical records, health insurance data.
   Data Classification:
     Classify your data into sensitivity levels (public, confidential, restricted) to determine what needs to be protected and at what level.
-    
+
 
 4. Choose a Data Loss Prevention (DLP) Strategy
   DLP solutions are essential for monitoring and preventing unauthorized data transfers. Here’s how to implement DLP across different channels:
@@ -39,7 +39,7 @@ Data exfiltration prevention is critical in protecting sensitive information fro
     2. Endpoint DLP: Protects data on devices (laptops, desktops, USBs) by restricting file copying or transfers.
     3. Cloud DLP: Monitors and controls data transfers to cloud-based services.
   
-  DLP Tools:
+  DLP Tools for comparative analysis:
     - OpenDLP: An open-source DLP tool for identifying sensitive data.
     - Snort: An open-source IDS/IPS that can detect suspicious traffic.
     - Symantec DLP: A commercial DLP solution for both endpoint and network protection.
@@ -53,4 +53,4 @@ Data exfiltration prevention is critical in protecting sensitive information fro
     - Zeek (Bro IDS): A network security monitor that analyzes network traffic in real-time and logs potential exfiltration attempts.
 
 
-ADD MORE WHEN WE GET TO IT>>>>
+<<<<ADD MORE WHEN WE GET TO IT>>>>

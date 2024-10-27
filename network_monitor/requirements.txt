@@ -1,3 +1,9 @@
+watchdog
+cryptography
+pyshark
+python-dotenv
+slack_sdk
+sqlite3
 scapy
 Flask
 Flask-SocketIO

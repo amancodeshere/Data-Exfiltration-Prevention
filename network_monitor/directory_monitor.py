@@ -3,7 +3,6 @@ import os
 import time
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
-import config
 import getpass
 
 class DirectoryEventHandler(FileSystemEventHandler):
@@ -14,42 +13,47 @@ class DirectoryEventHandler(FileSystemEventHandler):
         self.block_transfer()
 
     def block_transfer(self):
-        print("Blocking file transfer")
+        print("Blocking specific traffic")
         if os.uname().sysname == 'Darwin':  # macOS
-            self.block_with_pf()
+            self.block_specific_with_pf()
         else:
-            self.block_with_iptables()
+            self.block_specific_with_iptables()
 
-    def block_with_pf(self):
+    def block_specific_with_pf(self):
         rule = "block out quick proto tcp from any to any port 22"
         pf_conf = "/tmp/pf.conf"
         with open(pf_conf, "w") as f:
             f.write(f"{rule}\n")
-        print(f"Applying pf rule: {rule}")
-        os.system(f"sudo pfctl -f {pf_conf}")
-        os.system("sudo pfctl -e")
-        print("pf rule applied")
+        print(f"Writing pf rule to {pf_conf}: {rule}")
+        result = os.system(f"sudo pfctl -f {pf_conf}")
+        print(f"pfctl load result: {result}")
+        result = os.system("sudo pfctl -e")
+        print(f"pfctl enable result: {result}")
         self.prompt_for_override()
 
-    def block_with_iptables(self):
+    def block_specific_with_iptables(self):
         print("Applying iptables rule to block port 22")
-        os.system("sudo iptables -A OUTPUT -p tcp --dport 22 -j DROP")
-        print("iptables rule applied")
+        result = os.system("sudo iptables -A OUTPUT -p tcp --dport 22 -j DROP")
+        print(f"iptables result: {result}")
         self.prompt_for_override()
 
     def prompt_for_override(self):
         password = "override123"  # Change to a secure password
-        user_input = getpass.getpass("Enter override password to restore internet access: ")
-        if user_input == password:
-            self.restore_internet()
-        else:
-            print("Incorrect password. Internet access remains blocked.")
+        while True:
+            user_input = getpass.getpass("Enter override password to restore internet access: ")
+            if user_input == password:
+                self.restore_internet()
+                break
+            else:
+                print("Incorrect password. Please try again.")
 
     def restore_internet(self):
         if os.uname().sysname == 'Darwin':
-            os.system("sudo pfctl -F all -f /etc/pf.conf")
+            result = os.system("sudo pfctl -F all -f /etc/pf.conf")
+            print(f"pfctl restore result: {result}")
         else:
-            os.system("sudo iptables -F")
+            result = os.system("sudo iptables -F")
+            print(f"iptables restore result: {result}")
         print("Internet access restored.")
 
 def monitor_directory(path):
@@ -66,5 +70,5 @@ def monitor_directory(path):
     observer.join()
 
 if __name__ == "__main__":
-    directory_to_watch = '/path/to/directory'  # Specify your directory here
+    directory_to_watch = '/Users/sashankvermani/Desktop/Wallpapers'  # Specify your directory here
     monitor_directory(directory_to_watch)

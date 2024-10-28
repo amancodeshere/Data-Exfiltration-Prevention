@@ -41,8 +41,8 @@ def main():
     suspicious_count = 0
     logging.info("Starting packet capture, file monitoring, and directory monitoring...")
     monitor_file_transfer()
-    directory_to_watch = '/Users/sashankvermani/Desktop/Wallpapers'  # Specify your directory here
-    monitor_directory(directory_to_watch)
+    # directory_to_watch = '/Users/sashankvermani/Desktop/Wallpapers'  # Specify your directory here
+    # monitor_directory(directory_to_watch)
     sniff(prn=process_packet, count=100)
 
 if __name__ == "__main__":

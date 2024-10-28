@@ -2,7 +2,7 @@
 <!doctype html>
 <html>
 <head>
-    <title>Suspicious Packets</title>
+    <title>Network Monitor Dashboard</title>
 </head>
 <body>
     <h1>Suspicious Packets</h1>
@@ -21,6 +21,24 @@
             <td>{{ packet[2] }}</td>
             <td>{{ packet[3] }}</td>
             <td>{{ packet[4] }}</td> <!-- Add location here -->
+        </tr>
+        {% endfor %}
+    </table>
+    
+    <h1>Blocked File Transfers</h1>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Destination IP</th>
+            <th>Reason</th>
+            <th>Timestamp</th>
+        </tr>
+        {% for transfer in blocked_transfers %}
+        <tr>
+            <td>{{ transfer[0] }}</td>
+            <td>{{ transfer[1] }}</td>
+            <td>{{ transfer[2] }}</td>
+            <td>{{ transfer[3] }}</td>
         </tr>
         {% endfor %}
     </table>

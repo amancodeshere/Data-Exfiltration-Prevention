@@ -14,7 +14,6 @@ def get_packets():
     packets = c.fetchall()
     conn.close()
     
-    # Add geolocation data to packets
     packets_with_location = []
     for packet in packets:
         src_ip = packet[1]
@@ -29,10 +28,19 @@ def get_packets():
     
     return packets_with_location
 
+def get_blocked_transfers():
+    conn = sqlite3.connect('network_monitor.db')
+    c = conn.cursor()
+    c.execute('SELECT * FROM blocked_transfers ORDER BY timestamp DESC')
+    blocked_transfers = c.fetchall()
+    conn.close()
+    return blocked_transfers
+
 @app.route('/')
 def index():
     packets = get_packets()
-    return render_template('index.html', packets=packets)
+    blocked_transfers = get_blocked_transfers()
+    return render_template('index.html', packets=packets, blocked_transfers=blocked_transfers)
 
 def notify_new_packet(packet):
     socketio.emit('new_packet', packet)

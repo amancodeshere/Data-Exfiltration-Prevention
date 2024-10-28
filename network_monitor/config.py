@@ -14,3 +14,16 @@ allowed_countries = ['Australia', 'United States', 'United Kingdom']  # Example 
 #     'password': 'yourpassword'
 # }
 
+
+# # # config.py
+# BLACKLISTED_IPS = ['127.0.0.1', '17.248.155.203', '23.214.88.41']
+# ALERT_THRESHOLD = 5
+# EMAIL_SETTINGS = {
+#     'sender': 'youremail@example.com',
+#     'recipient': 'alertrecipient@example.com',
+#     'smtp_server': 'smtp.example.com',
+#     'smtp_port': 587,
+#     'password': 'yourpassword'
+# }
+# allowed_countries = ['Australia', 'United States', 'United Kingdom']
+

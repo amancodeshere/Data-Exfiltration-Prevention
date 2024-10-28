@@ -4,6 +4,7 @@ import time
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 import config
+import getpass
 
 class DirectoryEventHandler(FileSystemEventHandler):
     def on_modified(self, event):
@@ -20,12 +21,36 @@ class DirectoryEventHandler(FileSystemEventHandler):
             self.block_with_iptables()
 
     def block_with_pf(self):
-        pf_rules = "block all\npass in quick on lo0 all\npass out quick on lo0 all"
-        os.system(f"echo '{pf_rules}' | sudo pfctl -ef -")
-        os.system("sudo pfctl -E")
+        rule = "block out quick proto tcp from any to any port 22"
+        pf_conf = "/tmp/pf.conf"
+        with open(pf_conf, "w") as f:
+            f.write(f"{rule}\n")
+        print(f"Applying pf rule: {rule}")
+        os.system(f"sudo pfctl -f {pf_conf}")
+        os.system("sudo pfctl -e")
+        print("pf rule applied")
+        self.prompt_for_override()
 
     def block_with_iptables(self):
-        os.system("sudo iptables -A OUTPUT -m owner --uid-owner $(id -u) -j DROP")
+        print("Applying iptables rule to block port 22")
+        os.system("sudo iptables -A OUTPUT -p tcp --dport 22 -j DROP")
+        print("iptables rule applied")
+        self.prompt_for_override()
+
+    def prompt_for_override(self):
+        password = "override123"  # Change to a secure password
+        user_input = getpass.getpass("Enter override password to restore internet access: ")
+        if user_input == password:
+            self.restore_internet()
+        else:
+            print("Incorrect password. Internet access remains blocked.")
+
+    def restore_internet(self):
+        if os.uname().sysname == 'Darwin':
+            os.system("sudo pfctl -F all -f /etc/pf.conf")
+        else:
+            os.system("sudo iptables -F")
+        print("Internet access restored.")
 
 def monitor_directory(path):
     event_handler = DirectoryEventHandler()

@@ -7,6 +7,7 @@ from watchdog.observers import Observer
 from directory_monitor import DirectoryEventHandler
 import subprocess
 import time
+import getpass
 
 class TestDirectoryMonitor(unittest.TestCase):
     def setUp(self):
@@ -36,12 +37,35 @@ class TestDirectoryMonitor(unittest.TestCase):
 
         # Perform scp to simulate network transfer
         scp_command = f"scp {test_file_path} {os.path.join(self.destination_dir, 'testfile.txt')}"
+        print(f"Executing command: {scp_command}")
         process = subprocess.Popen(scp_command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         stdout, stderr = process.communicate()
+
+        print(f"scp stdout: {stdout}")
+        print(f"scp stderr: {stderr}")
 
         # Check if the file transfer was blocked
         self.assertNotEqual(process.returncode, 0, "The file transfer should be blocked.")
         self.assertFalse(os.path.exists(os.path.join(self.destination_dir, "testfile.txt")), "File should not exist in the destination directory.")
+
+        # Prompt for override to restore internet access
+        self.prompt_for_override()
+
+    def prompt_for_override(self):
+        password = "override123"  # Same as in directory_monitor.py
+        user_input = getpass.getpass("Enter override password to restore internet access: ")
+        if user_input == password:
+            self.restore_internet()
+        else:
+            print("Incorrect password. Internet access remains blocked.")
+            self.fail("Incorrect password. Internet access remains blocked.")
+
+    def restore_internet(self):
+        if os.uname().sysname == 'Darwin':
+            os.system("sudo pfctl -F all -f /etc/pf.conf")
+        else:
+            os.system("sudo iptables -F")
+        print("Internet access restored.")
 
 if __name__ == '__main__':
     unittest.main()

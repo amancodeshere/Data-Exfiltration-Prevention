@@ -24,7 +24,7 @@ anomaly_detector.fit(initial_data)
 init_db()  # Ensure the database and table are created
 
 def process_packet(packet):
-    logging.info("Packet captured.")
+    # logging.info("Packet captured.")
     packet_time = packet.time if hasattr(packet, 'time') else packet.sniff_time.timestamp()  # fix it
     packet_length = len(packet)
     if packet.haslayer(IP) and packet.haslayer(TCP):
@@ -34,9 +34,14 @@ def process_packet(packet):
         src_ip = packet[IP].src
         dest_ip = packet[IP].dst
         geo_info = get_geo_location(src_ip)
-        if geo_info['country'] not in allowed_countries or src_ip in BLACKLISTED_IPS:  # Define allowed countries list 
-            log_packet(src_ip, dest_ip)  # Log to database
-            send_os_alert(f"Suspicious activity detected: {src_ip} to {dest_ip}")
+        if geo_info['status'] == 'fail':
+            if src_ip in BLACKLISTED_IPS:  # Define allowed countries list 
+                log_packet(src_ip, dest_ip)  # Log to database
+                send_os_alert(f"Suspicious activity detected: {src_ip} to {dest_ip}")
+        else:
+            if geo_info['country'] not in allowed_countries or src_ip in BLACKLISTED_IPS:  # Define allowed countries list 
+                log_packet(src_ip, dest_ip)  # Log to database
+                send_os_alert(f"Suspicious activity detected: {src_ip} to {dest_ip}")
     
 
 def main():

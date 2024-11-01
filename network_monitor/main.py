@@ -4,7 +4,7 @@ from scapy.all import sniff, IP, TCP
 from capture import capture_packets
 from analyzer import analyze_packet
 from alert import send_alert
-from config import ALERT_THRESHOLD, allowed_countries
+from config import ALERT_THRESHOLD, allowed_countries, BLACKLISTED_IPS
 from database import log_packet, init_db
 from anomaly_detection import AnomalyDetector
 from geo_ip import get_geo_location
@@ -20,22 +20,26 @@ anomaly_detector = AnomalyDetector()
 initial_data = np.random.rand(100, 4)  # Example: replace with actual features
 anomaly_detector.fit(initial_data)
 
+# Initialize the database
+init_db()  # Ensure the database and table are created
+
 def process_packet(packet):
     logging.info("Packet captured.")
-    packet_time = packet.time if hasattr(packet, 'time') else packet.sniff_time.timestamp()  # Correcting packet time capture
+    packet_time = packet.time if hasattr(packet, 'time') else packet.sniff_time.timestamp()  # fix it
     packet_length = len(packet)
     if packet.haslayer(IP) and packet.haslayer(TCP):
         packet_features = [packet_length, packet_time, packet[TCP].sport, packet[TCP].dport]  # Example features
-        if analyze_packet(packet) or anomaly_detector.predict(packet_features):
-            src_ip = packet[IP].src
-            dest_ip = packet[IP].dst
-            geo_info = get_geo_location(src_ip)
-            if geo_info['country'] not in allowed_countries:  # Define allowed countries list
-                log_packet(src_ip, dest_ip)  # Log to database
-                send_os_alert(f"Suspicious activity detected: {src_ip} to {dest_ip}")
+        # print(packet_features)
+        # if analyze_packet(packet) or anomaly_detector.predict(packet_features):
+        src_ip = packet[IP].src
+        dest_ip = packet[IP].dst
+        geo_info = get_geo_location(src_ip)
+        if geo_info['country'] not in allowed_countries or src_ip in BLACKLISTED_IPS:  # Define allowed countries list 
+            log_packet(src_ip, dest_ip)  # Log to database
+            send_os_alert(f"Suspicious activity detected: {src_ip} to {dest_ip}")
+    
 
 def main():
-    init_db()  # Initialize the database
     logging.info("Starting packet capture...")
     sniff(prn=process_packet, count=100)
 

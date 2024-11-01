@@ -27,6 +27,8 @@ def get_packets():
             location = f"{city}, {country}"
         packets_with_location.append((*packet, location))
     
+    # Debug print statement
+    print("Fetched packets:", packets_with_location)
     return packets_with_location
 
 @app.route('/')

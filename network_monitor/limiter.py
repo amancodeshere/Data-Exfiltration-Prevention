@@ -2,9 +2,10 @@ import os
 import getpass
 from scapy.config import conf
 
+
 class limiter():
     def __init__(self):
-        self.password = "1234" # default password, changed in main.py
+        self.password = "1234"  # default password, changed in main.py
 
     def block_wifi(self):
         """
@@ -33,8 +34,6 @@ class limiter():
     def prompt_for_override(self):
         """
         Prompt the user for a password to override the internet block.
-        If password is incorrect, prompt again.
-        If password is correct, restore internet access.
         """
         while True:
             user_input = getpass.getpass("Enter override password to restore internet access: ")

@@ -4,7 +4,7 @@ from scapy.all import sniff, IP, TCP
 from config import allowed_countries, BLACKLISTED_IPS
 from database import log_packet, init_db
 from geo_ip import get_geo_location
-from os_alerts import send_os_alert
+from os_alerts import sendAlerts
 from limiter import limiter
 import os
 import time
@@ -34,21 +34,19 @@ def process_packet(packet):
     """
     global alert_triggered
     timestamp = time.strftime("%H:%M:%S")
-    # packet_length = len(packet)
     if packet.haslayer(IP) and packet.haslayer(TCP):
-        # packet_features = [packet_length, timestamp, packet[TCP].sport, packet[TCP].dport]
-        src_ip = packet[IP].src
-        dest_ip = packet[IP].dst
-        geo_info = get_geo_location(src_ip)
+        sourceIp = packet[IP].src
+        destIp = packet[IP].dst
+        geo_info = get_geo_location(sourceIp)
         if geo_info['status'] == 'fail':
-            if src_ip in BLACKLISTED_IPS:  # Define allowed countries list
-                log_packet(src_ip, dest_ip, timestamp)  # Log to database
-                send_os_alert(f"Suspicious activity detected: {src_ip} to {dest_ip}")
+            if sourceIp in BLACKLISTED_IPS:  # Define allowed countries list
+                log_packet(sourceIp, destIp, timestamp)  # Log to database
+                sendAlerts(f"Suspicious activity detected: {sourceIp} to {destIp}")
                 alert_triggered = True
         else:
-            if geo_info['country'] not in allowed_countries or src_ip in BLACKLISTED_IPS:
-                log_packet(src_ip, dest_ip, timestamp)  # Log to database
-                send_os_alert(f"Suspicious activity detected: {src_ip} to {dest_ip}")
+            if geo_info['country'] not in allowed_countries or sourceIp in BLACKLISTED_IPS:
+                log_packet(sourceIp, destIp, timestamp)  # Log to database
+                sendAlerts(f"Suspicious activity detected: {sourceIp} to {destIp}")
                 alert_triggered = True
 
         if alert_triggered:

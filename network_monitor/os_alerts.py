@@ -2,7 +2,8 @@
 import os
 import platform
 
-def send_os_alert(message):
+
+def sendAlerts(message):
     """
     Send an OS-level notification for alerts.
 

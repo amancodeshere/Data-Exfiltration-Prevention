@@ -19,7 +19,7 @@ def init_db():
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             src_ip TEXT,
             dest_ip TEXT,
-            timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+            timestamp DATETIME
         )
     ''')
 
@@ -28,24 +28,24 @@ def init_db():
     conn.close()
 
 
-def log_packet(src_ip, dest_ip):
+def log_packet(src_ip, dest_ip, timestamp):
     """
     Logs a network packet's source and destination IP addresses to the database.
 
     Arguments:
         src_ip (str): The source IP address of the packet.
         dest_ip (str): The destination IP address of the packet.
+        timestamp: The time of the packet.
     Returns:
         None
     """
     # Connect to database
     conn = sqlite3.connect('network_monitor.db')
     c = conn.cursor()
-
     # Insert into database
     c.execute('''
-        INSERT INTO suspicious_packets (src_ip, dest_ip) VALUES (?, ?)
-    ''', (src_ip, dest_ip))
+        INSERT INTO suspicious_packets (src_ip, dest_ip, timestamp) VALUES (?, ?, ?)
+    ''', (src_ip, dest_ip, timestamp))
 
     # Commit changes and close
     conn.commit()

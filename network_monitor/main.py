@@ -7,6 +7,7 @@ from geo_ip import get_geo_location
 from os_alerts import send_os_alert
 from limiter import limiter
 import os
+import time
 
 logging.basicConfig(level=logging.INFO)
 
@@ -32,21 +33,21 @@ def process_packet(packet):
         None
     """
     global alert_triggered
-    packet_time = packet.time if hasattr(packet, 'time') else packet.sniff_time.timestamp()
-    packet_length = len(packet)
+    timestamp = time.strftime("%H:%M:%S")
+    # packet_length = len(packet)
     if packet.haslayer(IP) and packet.haslayer(TCP):
-        packet_features = [packet_length, packet_time, packet[TCP].sport, packet[TCP].dport]
+        # packet_features = [packet_length, timestamp, packet[TCP].sport, packet[TCP].dport]
         src_ip = packet[IP].src
         dest_ip = packet[IP].dst
         geo_info = get_geo_location(src_ip)
         if geo_info['status'] == 'fail':
             if src_ip in BLACKLISTED_IPS:  # Define allowed countries list
-                log_packet(src_ip, dest_ip)  # Log to database
+                log_packet(src_ip, dest_ip, timestamp)  # Log to database
                 send_os_alert(f"Suspicious activity detected: {src_ip} to {dest_ip}")
                 alert_triggered = True
         else:
             if geo_info['country'] not in allowed_countries or src_ip in BLACKLISTED_IPS:
-                log_packet(src_ip, dest_ip)  # Log to database
+                log_packet(src_ip, dest_ip, timestamp)  # Log to database
                 send_os_alert(f"Suspicious activity detected: {src_ip} to {dest_ip}")
                 alert_triggered = True
 

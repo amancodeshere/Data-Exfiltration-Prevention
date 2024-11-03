@@ -9,7 +9,7 @@ class limiter():
 
     def block_wifi(self):
         """
-        Blocks all outgoing traffic on port 22 on macOS systems using PF.
+        Blocks all outgoing traffic using PF.
         """
         if os.uname().sysname == 'Darwin':
             interface = conf.iface

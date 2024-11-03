@@ -8,8 +8,6 @@ class WifiBlocker:
     def block_wifi(self):
         if os.uname().sysname == 'Darwin':
             self.block_specific_with_pf()
-        else:
-            self.block_specific_with_iptables()
 
     def block_specific_with_pf(self):
         rule = "block out quick proto tcp from any to any port 22"
@@ -21,13 +19,6 @@ class WifiBlocker:
         print(f"pfctl load result: {result}")
         result = os.system("sudo pfctl -e")
         print(f"pfctl enable result: {result}")
-        # self.prompt_for_override()
-
-    def block_specific_with_iptables(self):
-        print("Applying iptables rule to block port 22")
-        result = os.system("sudo iptables -A OUTPUT -p tcp --dport 22 -j DROP")
-        print(f"iptables result: {result}")
-        self.prompt_for_override()
 
     def prompt_for_override(self):
         while True:
@@ -46,10 +37,3 @@ class WifiBlocker:
             result = os.system("sudo iptables -F")
             print(f"iptables restore result: {result}")
         print("Internet access restored.")
-
-def main():
-    wifi_blocker = WifiBlocker()
-    wifi_blocker.block_wifi()
-
-if __name__ == "__main__":
-    main()

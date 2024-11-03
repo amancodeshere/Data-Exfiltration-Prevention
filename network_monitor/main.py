@@ -6,6 +6,7 @@ from database import log_packet, init_db
 from geo_ip import get_geo_location
 from os_alerts import send_os_alert
 from limiter import WifiBlocker
+import os
 
 logging.basicConfig(level=logging.INFO)
 
@@ -36,6 +37,8 @@ def process_packet(packet):
 
         if alert_triggered:
             # Block the IP address
+            if os.uname().sysname != 'Darwin':
+                print('Network monitoring is only supported on macOS.')
             wifi_blocker = WifiBlocker()
             wifi_blocker.block_specific_with_pf()
             wifi_blocker.prompt_for_override()

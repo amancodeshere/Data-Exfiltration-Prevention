@@ -5,7 +5,7 @@ from config import allowed_countries, BLACKLISTED_IPS
 from database import log_packet, init_db
 from geo_ip import get_geo_location
 from os_alerts import send_os_alert
-from limiter import WifiBlocker
+from limiter import limiter
 import os
 
 logging.basicConfig(level=logging.INFO)
@@ -13,9 +13,24 @@ logging.basicConfig(level=logging.INFO)
 # Initialize the database
 init_db()
 
+# Initialize the alert flag
 alert_triggered = False
 
+# Initialize the limiter
+blocker = limiter()
+blocker.password = input('Enter override password (Note you will need to regain internet access, please remember it): ')
+
 def process_packet(packet):
+    """
+    Process a packet and raise an alert if it is deemed suspicious.
+
+    Arguments:
+        packet : scapy.packet.Packet
+            The packet to process.
+
+    Returns:
+        None
+    """
     global alert_triggered
     packet_time = packet.time if hasattr(packet, 'time') else packet.sniff_time.timestamp()
     packet_length = len(packet)
@@ -39,9 +54,8 @@ def process_packet(packet):
             # Block the IP address
             if os.uname().sysname != 'Darwin':
                 print('Network monitoring is only supported on macOS.')
-            wifi_blocker = WifiBlocker()
-            wifi_blocker.block_specific_with_pf()
-            wifi_blocker.prompt_for_override()
+            blocker.block_wifi()
+            blocker.prompt_for_override()
 
 def main():
     logging.info("Starting packet capture...")

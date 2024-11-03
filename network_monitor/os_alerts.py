@@ -3,11 +3,19 @@ import os
 import platform
 
 def send_os_alert(message):
+    """
+    Send an OS-level notification for alerts.
+
+    Arguments:
+        message (str): The message to be displayed in the alert.
+    Returns:
+        None
+
+    Notes:
+        Currently, this only works on macOS and Linux systems. On Windows,
+        the alert will not work.
+    """
     if platform.system() == 'Darwin':  # macOS
         os.system(f"osascript -e 'display notification \"{message}\" with title \"Network Monitor Alert\"'")
     elif platform.system() == 'Linux':
         os.system(f'notify-send "Network Monitor Alert" "{message}"')
-    elif platform.system() == 'Windows':
-        from win10toast import ToastNotifier
-        toaster = ToastNotifier()
-        toaster.show_toast("Network Monitor Alert", message, duration=10)

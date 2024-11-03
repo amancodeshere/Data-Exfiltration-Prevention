@@ -1,11 +1,22 @@
 import sqlite3
 
+# This was mainly used to test the database.
+# This is not used in the main functionality of the product.
+
 def inspect_db():
+    """
+    Prints out all suspicious packets stored in the database to the console.
+    """
     conn = sqlite3.connect('network_monitor.db')
     c = conn.cursor()
+    # Get packets from the database
     c.execute('SELECT * FROM suspicious_packets ORDER BY timestamp DESC')
     packets = c.fetchall()
+
+    # Close connection to database
     conn.close()
+
+    # Print packets
     for packet in packets:
         print(packet)
 

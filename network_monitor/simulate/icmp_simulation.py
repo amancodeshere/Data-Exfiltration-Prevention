@@ -21,6 +21,8 @@
 from scapy.all import *
 import time
 
+from scapy.layers.inet import TCP, IP
+
 # Define the target and spoofed IP
 target_ip = "www.example.com"
 spoofed_ip = "192.168.1.100"

@@ -1,15 +1,14 @@
 # main.py
 import logging
+
+import numpy as np
 from scapy.all import sniff, IP, TCP
-from capture import capture_packets
-from analyzer import analyze_packet
-from alert import send_alert
-from config import ALERT_THRESHOLD, allowed_countries, BLACKLISTED_IPS
-from database import log_packet, init_db
+
 from anomaly_detection import AnomalyDetector
+from config import allowed_countries, BLACKLISTED_IPS
+from database import log_packet, init_db
 from geo_ip import get_geo_location
 from os_alerts import send_os_alert  # Import the new OS alert function
-import numpy as np
 
 logging.basicConfig(level=logging.INFO)
 

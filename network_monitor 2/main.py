@@ -5,13 +5,17 @@ from config import allowed_countries, BLACKLISTED_IPS
 from database import log_packet, init_db
 from geo_ip import get_geo_location
 from os_alerts import send_os_alert
+from limiter import WifiBlocker
 
 logging.basicConfig(level=logging.INFO)
 
 # Initialize the database
-init_db()  # Ensure the database and table are created
+init_db()
+
+alert_triggered = False
 
 def process_packet(packet):
+    global alert_triggered
     packet_time = packet.time if hasattr(packet, 'time') else packet.sniff_time.timestamp()
     packet_length = len(packet)
     if packet.haslayer(IP) and packet.haslayer(TCP):
@@ -23,11 +27,18 @@ def process_packet(packet):
             if src_ip in BLACKLISTED_IPS:  # Define allowed countries list
                 log_packet(src_ip, dest_ip)  # Log to database
                 send_os_alert(f"Suspicious activity detected: {src_ip} to {dest_ip}")
+                alert_triggered = True
         else:
-            if geo_info['country'] not in allowed_countries or src_ip in BLACKLISTED_IPS:  # Define allowed countries list
+            if geo_info['country'] not in allowed_countries or src_ip in BLACKLISTED_IPS:
                 log_packet(src_ip, dest_ip)  # Log to database
                 send_os_alert(f"Suspicious activity detected: {src_ip} to {dest_ip}")
-    
+                alert_triggered = True
+
+        if alert_triggered:
+            # Block the IP address
+            wifi_blocker = WifiBlocker()
+            wifi_blocker.block_specific_with_pf()
+            wifi_blocker.prompt_for_override()
 
 def main():
     logging.info("Starting packet capture...")

@@ -8,6 +8,7 @@ from os_alerts import sendAlerts
 from limiter import limiter
 import os
 import time
+import getpass
 
 logging.basicConfig(level=logging.INFO)
 
@@ -19,7 +20,7 @@ alert_triggered = False
 
 # Initialize the limiter
 blocker = limiter()
-blocker.password = input('Enter override password (Note you will need to regain internet access, please remember it): ')
+blocker.password = getpass.getpass('Enter override password (Note you will need to regain internet access, please remember it): ')
 
 def process_packet(packet):
     """

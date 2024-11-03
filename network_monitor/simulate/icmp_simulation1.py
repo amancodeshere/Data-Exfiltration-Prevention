@@ -18,8 +18,8 @@
 # # packet = IP(src="192.168.1.100", dst="10.0.0.1")/TCP(dport=80)
 # # send(packet, count=10)  # Send 10 packets
 
-from scapy.all import *
 import time
+from scapy.layers.inet import IP, TCP
 
 # Define the target and spoofed IP
 target_ip = "www.example.com"

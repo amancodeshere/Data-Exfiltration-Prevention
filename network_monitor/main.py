@@ -20,6 +20,7 @@ alert_triggered = False
 
 # Initialize the limiter
 blocker = limiter()
+blocker.admin_password = getpass.getpass('Enter admin password (Note you will need to regain internet access, please remember it): ')
 blocker.password = getpass.getpass('Enter override password (Note you will need to regain internet access, please remember it): ')
 
 def process_packet(packet):

@@ -6,6 +6,7 @@ from scapy.config import conf
 class limiter():
     def __init__(self):
         self.password = "1234"  # default password, changed in main.py
+        self.admin_password = None # default password, change later
 
     def block_wifi(self):
         """
@@ -35,6 +36,13 @@ class limiter():
         """
         Prompt the user for a password to override the internet block.
         """
+        user_input = getpass.getpass("Enter admin password: ")
+        if user_input == self.admin_password:
+            result = os.system("sudo pfctl -F all -f /etc/pf.conf")
+            print(f"pfctl restore result: {result}")
+            exit(0)
+        else:
+            print("Incorrect password")
         while True:
             user_input = getpass.getpass("Enter override password to restore internet access: ")
             if user_input == self.password:

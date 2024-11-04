@@ -31,8 +31,12 @@ This project aims to develop and implement methods to protect sensitive informat
 
 ### Important Note: Remember the passwords you create, as ADEP is designed to stop all internet until it recieves the password by design. The admin password will stop logging as soon as it is entered whereas the user password will be required every time a suspicious packet is detected. If the main is stopped without the password and internet is blocked, restarting the machine will fix the problem.
 
+
 ### Usage
 ------------
+DISCLAIMER: **This will block your internet access untill an override/admin password is entered.**
+
+To run the application, follow these steps:
 
 1. Make sure you are in network_monitor directory: `cd network-monitor`
 2. Install dependencies: `pip install -r requirements.txt`

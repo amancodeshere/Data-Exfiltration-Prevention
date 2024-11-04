@@ -17,20 +17,16 @@ class limiter():
         if os.uname().sysname == 'Darwin':
             interface = conf.iface
 
-            # Construct PF rule to block all outgoing
             rule = f"block out on {interface} all"
 
-            # Write rule to temp file
             pfConfig = "/tmp/pf.conf"
             with open(pfConfig, "w") as f:
                 f.write(f"{rule}\n")
             print(f"Writing pf rule to {pfConfig}: {rule}")
 
-            # Load the rule
             result = os.system(f"sudo pfctl -f {pfConfig}")
             print(f"pfctl load result: {result}")
 
-            # Enable PF
             result = os.system("sudo pfctl -e")
             print(f"pfctl enable result: {result}")
 

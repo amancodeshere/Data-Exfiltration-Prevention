@@ -39,14 +39,12 @@ def logPackets(src_ip, dest_ip, timestamp):
     Returns:
         None
     """
-    # Connect to database
     conn = sqlite3.connect('network_monitor.db')
     c = conn.cursor()
-    # Insert into database
+
     c.execute('''
         INSERT INTO suspicious_packets (src_ip, dest_ip, timestamp) VALUES (?, ?, ?)
     ''', (src_ip, dest_ip, timestamp))
 
-    # Commit changes and close
     conn.commit()
     conn.close()

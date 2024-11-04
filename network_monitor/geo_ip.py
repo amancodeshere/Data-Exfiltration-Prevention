@@ -27,7 +27,6 @@ def get_geo_location(ip):
     if is_private_ip(ip):
         return {'status': 'fail', 'message': 'private range', 'query': ip}
 
-    # request the IP-API service to get the geolocation
     response = requests.get(f"http://ip-api.com/json/{ip}")
 
     data = response.json()

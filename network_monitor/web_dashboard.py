@@ -21,8 +21,7 @@ def get_packets():
     c.execute('SELECT * FROM suspicious_packets ORDER BY timestamp DESC')
     packets = c.fetchall()
     conn.close()
-    
-    # Add geolocation data to packets
+
     packetsWithLocation = []
     for packet in packets:
         sourceIP = packet[1]
@@ -34,8 +33,7 @@ def get_packets():
             country = geo_info.get('country', 'N/A')
             location = f"{city}, {country}"
         packetsWithLocation.append((*packet, location))
-    
-    # Debug print statement
+
     print("Fetched packets:", packetsWithLocation)
     return packetsWithLocation
 

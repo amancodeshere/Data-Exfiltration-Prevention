@@ -9,14 +9,12 @@ def inspect_db():
     """
     conn = sqlite3.connect('network_monitor.db')
     c = conn.cursor()
-    # Get packets from the database
+
     c.execute('SELECT * FROM suspicious_packets ORDER BY timestamp DESC')
     packets = c.fetchall()
 
-    # Close connection to database
     conn.close()
 
-    # Print packets
     for packet in packets:
         print(packet)
 

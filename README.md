@@ -1,9 +1,9 @@
 # AwesomeDEP
 
-### Important Note: Remember the passwords you create, as ADEP is designed to stop all internet until it recieves the password by design. The admin password will stop logging as soon as it is entered whereas the user password will be required every time a suspicious packet is detected. If the main is stopped without the password and the internet is already blocked, restarting the machine will fix the problem.
 -----------
 
 A network monitoring system designed to detect, prevent, and mitigate data exfiltration.
+
 
 ### Overview
 -----------
@@ -29,7 +29,7 @@ This project aims to develop and implement methods to protect sensitive informat
 * win10toast
 * SQLite3
 
-### Important Note: Remember the passwords you create, as ADEP is designed to stop all internet until it recieves the password by design. The admin password will stop logging as soon as it is entered whereas the user password will be required every time a suspicious packet is detected. If the main is stopped without the password and internet is blocked, restarting the machine will fix the problem.
+**Important Note: Remember the passwords you create, as ADEP is designed to stop all internet until it recieves the password by design. The admin password will stop logging as soon as it is entered whereas the user password will be required every time a suspicious packet is detected. If the main is stopped without the password and internet is blocked, restarting the machine will fix the problem.**
 
 
 ### Usage

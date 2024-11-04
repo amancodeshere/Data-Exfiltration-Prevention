@@ -16,7 +16,7 @@ def sendAlerts(message):
         Currently, this only works on macOS and Linux systems. On Windows,
         the alert will not work.
     """
-    if platform.system() == 'Darwin':  # macOS
+    if platform.system() == 'Darwin':
         os.system(f"osascript -e 'display notification \"{message}\" with title \"Network Monitor Alert\"'")
     elif platform.system() == 'Linux':
         os.system(f'notify-send "Network Monitor Alert" "{message}"')

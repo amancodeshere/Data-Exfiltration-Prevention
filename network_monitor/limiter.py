@@ -21,13 +21,13 @@ class limiter():
             rule = f"block out on {interface} all"
 
             # Write rule to temp file
-            pf_conf = "/tmp/pf.conf"
-            with open(pf_conf, "w") as f:
+            pfConfig = "/tmp/pf.conf"
+            with open(pfConfig, "w") as f:
                 f.write(f"{rule}\n")
-            print(f"Writing pf rule to {pf_conf}: {rule}")
+            print(f"Writing pf rule to {pfConfig}: {rule}")
 
             # Load the rule
-            result = os.system(f"sudo pfctl -f {pf_conf}")
+            result = os.system(f"sudo pfctl -f {pfConfig}")
             print(f"pfctl load result: {result}")
 
             # Enable PF
@@ -38,16 +38,16 @@ class limiter():
         """
         Prompt the user for a password to override the internet block.
         """
-        user_input = getpass.getpass("Enter admin password: ")
-        if user_input == self.admin_password:
+        userInput = getpass.getpass("Enter admin password: ")
+        if userInput == self.admin_password:
             result = os.system("sudo pfctl -F all -f /etc/pf.conf")
             print(f"pfctl restore result: {result}")
             exit(0)
         else:
             print("Incorrect password")
         while True:
-            user_input = getpass.getpass("Enter override password to restore internet access: ")
-            if user_input == self.password:
+            userInput = getpass.getpass("Enter override password to restore internet access: ")
+            if userInput == self.password:
                 result = os.system("sudo pfctl -F all -f /etc/pf.conf")
                 print(f"pfctl restore result: {result}")
                 break

@@ -9,9 +9,8 @@ socketio = SocketIO(app)
 
 def get_packets():
     """
-    Fetches suspicious packets from the database, ordered by timestamp.
-    It also adds the geolocation information of each packet's source
-    IP address to the result.
+    Fetches suspicious packets from the database, ordered by timestamp
+    It also adds the geolocation of each packet (source IP)
 
     Returns:
          A list of tuples, each containing the packet's ID, source IP
@@ -24,26 +23,26 @@ def get_packets():
     conn.close()
     
     # Add geolocation data to packets
-    packets_with_location = []
+    packetsWithLocation = []
     for packet in packets:
-        src_ip = packet[1]
-        if is_private_ip(src_ip):
+        sourceIP = packet[1]
+        if is_private_ip(sourceIP):
             location = "Private IP Range"
         else:
-            geo_info = get_geo_location(src_ip)
+            geo_info = get_geo_location(sourceIP)
             city = geo_info.get('city', 'N/A')
             country = geo_info.get('country', 'N/A')
             location = f"{city}, {country}"
-        packets_with_location.append((*packet, location))
+        packetsWithLocation.append((*packet, location))
     
     # Debug print statement
-    print("Fetched packets:", packets_with_location)
-    return packets_with_location
+    print("Fetched packets:", packetsWithLocation)
+    return packetsWithLocation
 
 @app.route('/')
 def index():
     """
-    Handle the root URL '/' and render the index page.
+    Handle the root URL '/' and render the index page
 
     Returns:
         The rendered HTML of the index page with the packets data.

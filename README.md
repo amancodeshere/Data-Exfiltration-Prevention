@@ -1,14 +1,14 @@
 # AwesomeDEP
-================
+-----------
 
 A network monitoring system designed to detect, prevent, and mitigate data exfiltration.
 
-## Overview
+### Overview
 -----------
 
 This project aims to develop and implement methods to protect sensitive information from unauthorized access and theft. It utilizes a combination of packet capture, analysis, and alerting mechanisms to identify and respond to potential security threats.
 
-## Features
+### Features
 ------------
 
 * Packet capture and analysis using Scapy
@@ -16,7 +16,7 @@ This project aims to develop and implement methods to protect sensitive informat
 * Web-based dashboard for monitoring and visualization
 * Integration with SQLite database for storing and querying network activity
 
-## Requirements
+### Requirements
 ------------
 
 * Python 3.x
@@ -27,7 +27,7 @@ This project aims to develop and implement methods to protect sensitive informat
 * win10toast
 * SQLite3
 
-## Usage
+### Usage
 ------------
 
 1. Make sure you are in network_monitor directory: `cd network-monitor`

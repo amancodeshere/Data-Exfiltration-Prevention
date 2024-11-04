@@ -5,8 +5,10 @@ from scapy.config import conf
 
 class limiter():
     def __init__(self):
-        self.password = "1234"  # default password, changed in main.py
-        self.admin_password = None # default password, change later
+        # Here we are setting the default password
+        # the user can change it in main.py
+        self.password = "1234"
+        self.admin_password = None
 
     def block_wifi(self):
         """

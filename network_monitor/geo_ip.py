@@ -18,14 +18,13 @@ def is_private_ip(ip):
 
 def get_geo_location(ip):
     """
-    Retrieves the geographical location information for a given IP address.
+    Retrieves the location information for a given IP address.
 
     Args:
-        ip (str): The IP address to query for geolocation information.
+        ip (str): The IP address
 
     Returns:
-        data: A dictionary containing the geolocation data or a failure message
-              if the IP address is in a private range.
+        data: The geolocation data or a failure message if the IP address is in a private range.
     """
     # Check if the IP address is in a private range
     if is_private_ip(ip):

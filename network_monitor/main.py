@@ -2,7 +2,7 @@
 import logging
 from scapy.all import sniff, IP, TCP
 from config import allowed_countries, BLACKLISTED_IPS
-from database import log_packet, init_db
+from database import logPackets, initDB
 from geo_ip import get_geo_location
 from os_alerts import sendAlerts
 from limiter import limiter
@@ -13,10 +13,10 @@ import getpass
 logging.basicConfig(level=logging.INFO)
 
 # Initialize the database
-init_db()
+initDB()
 
 # Initialize the alert flag
-alert_triggered = False
+alertsTriggered = False
 
 # Initialize the limiter
 blocker = limiter()
@@ -34,24 +34,24 @@ def process_packet(packet):
     Returns:
         None
     """
-    global alert_triggered
+    global alertsTriggered
     timestamp = time.strftime("%H:%M:%S")
     if packet.haslayer(IP) and packet.haslayer(TCP):
         sourceIp = packet[IP].src
         destIp = packet[IP].dst
-        geo_info = get_geo_location(sourceIp)
-        if geo_info['status'] == 'fail':
+        geoInfo = get_geo_location(sourceIp)
+        if geoInfo['status'] == 'fail':
             if sourceIp in BLACKLISTED_IPS:  # Define allowed countries list
-                log_packet(sourceIp, destIp, timestamp)  # Log to database
+                logPackets(sourceIp, destIp, timestamp)  # Log to database
                 sendAlerts(f"Suspicious activity detected: {sourceIp} to {destIp}")
-                alert_triggered = True
+                alertsTriggered = True
         else:
-            if geo_info['country'] not in allowed_countries or sourceIp in BLACKLISTED_IPS:
-                log_packet(sourceIp, destIp, timestamp)  # Log to database
+            if geoInfo['country'] not in allowed_countries or sourceIp in BLACKLISTED_IPS:
+                logPackets(sourceIp, destIp, timestamp)  # Log to database
                 sendAlerts(f"Suspicious activity detected: {sourceIp} to {destIp}")
-                alert_triggered = True
+                alertsTriggered = True
 
-        if alert_triggered:
+        if alertsTriggered:
             # Block the IP address
             if os.uname().sysname != 'Darwin':
                 print('Network monitoring is only supported on macOS.')

@@ -1,7 +1,7 @@
 # database.py
 import sqlite3
 
-def init_db():
+def initDB():
     """
     Initializes the  database and sets up the
     suspicious_packets table.
@@ -28,7 +28,7 @@ def init_db():
     conn.close()
 
 
-def log_packet(src_ip, dest_ip, timestamp):
+def logPackets(src_ip, dest_ip, timestamp):
     """
     Logs a network packet's source and destination IP addresses to the database.
 

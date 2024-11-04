@@ -27,8 +27,13 @@ This project aims to develop and implement methods to protect sensitive informat
 * win10toast
 * SQLite3
 
+
+
 ### Usage
 ------------
+DISCLAIMER: **This will block you internet access untill an override/admin password is entered.**
+
+To run the application, follow these steps:
 
 1. Make sure you are in network_monitor directory: `cd network-monitor`
 2. Install dependencies: `pip install -r requirements.txt`
